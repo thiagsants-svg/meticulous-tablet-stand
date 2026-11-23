@@ -52,6 +52,14 @@ Tablet used: Galaxy Tab A 10.1 (2019), **245.2 × 149.4 × 7.5 mm**, no case. **
 
 **Easier:** open this folder with Claude Code (or another agent) and tell it your measurements, your tablet and your printer. `CLAUDE.md` explains the project to it.
 
+## Tuning the angle to your tablet
+
+The ledge sags under the tablet, and how much depends on **your tablet's weight** (a case adds a lot), the fit of the dovetail and your printer. The angles in this repository were tuned for one tablet of about 470 g. **Expect to reprint the ledge once or twice** until the tablet sits level. Only the ledge needs reprinting (about 1 hour and 15 g); the frame stays.
+
+To measure, use the **level in your phone** (on the iPhone it is in the Measure app; on Android any "bubble level" app). Mount the tablet on the stand, lay the phone on the **top edge of the tablet** and read the angle. Note which side is lower: the **free end** of the ledge (away from the frame) or the frame end.
+
+Then tell your Claude something like *"I printed the 1.5° ledge and the tablet reads 1° low at the free end"*. It will regenerate the ledge with the corrected `deg=`. A photo of the phone on the tablet helps too.
+
 ## Ready-made files
 
 The ready-made files are in `stl/` and in `output/` (3MFs for the Kobra S1, PETG). They are valid **for the measurements above**.

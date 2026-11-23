@@ -39,6 +39,13 @@ This repository generates, in code, a tablet stand that hangs on the **Meticulou
 
 Treat everything that is not in this table as **untested** and tell the person so.
 
+## Tuning the compensation (the usual loop)
+The sag depends on the tablet's weight (with case), the dovetail fit and the printer, so the first ledge rarely comes out level. Tell the person up front that they will probably **reprint the ledge** once or twice (only the ledge; the frame is reused).
+- Ask them to measure with the **phone's level app** (iPhone: Measure app → Level; Android: any bubble-level app) lying on the **top edge of the mounted tablet**, and to say how many degrees and **which end is lower**: the free end of the ledge or the frame end. Ask for a photo if the answer is unclear.
+- Correction: **new `deg` = printed `deg` + droop**, with droop positive when the free end is lower and negative when it is higher. Example from this repository: 3.5° printed, read 2° high at the free end → 1.5°.
+- Change only the compensation (`deg=` / `tilt=`) between rounds; keep the clearances and the layer height, or the sag changes too.
+- Record each round (printed angle → reading) so the next correction starts from data.
+
 ## Scripts
 | Script | What it does |
 |---|---|
