@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.gcode
+fatiador/*_cli.3mf
+origem/*.stl
