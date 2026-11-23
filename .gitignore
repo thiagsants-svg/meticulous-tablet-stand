@@ -1,5 +1,5 @@
 __pycache__/
 *.pyc
 *.gcode
-fatiador/*_cli.3mf
-origem/*.stl
+slicer/*_cli.3mf
+original/*.stl
